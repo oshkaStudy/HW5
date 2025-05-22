@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.DragAndDropOptions.to;
-import static com.codeborne.selenide.Selectors.byTagAndText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class DragAndDropTest {
