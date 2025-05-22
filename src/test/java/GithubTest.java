@@ -10,8 +10,10 @@ public class GithubTest {
 
     @BeforeAll
     public static void setupConfig() {
+
         Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://github.com";
+
     }
 
     //1. На главной странице GitHub выберите:
@@ -33,6 +35,7 @@ public class GithubTest {
 
         //Проверяем страницу на соответствие
         $("#hero-section-brand-heading").shouldHave(text("The AI-powered developer platform"));
+
     }
 
 }
